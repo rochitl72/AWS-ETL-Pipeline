@@ -1,0 +1,15 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "GlueJobControl",
+			"Effect": "Allow",
+			"Action": [
+				"glue:StartJobRun",
+				"glue:GetJobRun",
+				"glue:GetJob"
+			],
+			"Resource": "arn:aws:glue:us-east-1:0279-2299-3730:job/trigger_glue_etl"
+		}
+	]
+}
